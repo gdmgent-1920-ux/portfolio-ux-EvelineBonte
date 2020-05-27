@@ -88,7 +88,7 @@ const data = {
         {
             "text": "Adobe XD (met Visual Designs)",
             "title": "Mijn Adobe XD document voor de visual designs van mijn applicatie",
-            "href": "https://xd.adobe.com/view/6fe553f9-7fa9-4e15-4ac4-1066a0a6ca2e-19d4/?fullscreen",
+            "href": "./assignments/assignment3/documents/a3-visual-designs.xd",
         },
         {
             "text": "Website",
