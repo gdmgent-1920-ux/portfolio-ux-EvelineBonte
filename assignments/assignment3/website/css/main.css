@@ -1,0 +1,220 @@
+@import './grid.min.css';
+@import '/css/Variable.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    float: left;
+}
+
+body{
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--white);
+    text-align: left;
+}
+.Logo{
+        display: block;
+        position: absolute;
+        width: 50%;
+        height: 50%;
+}
+
+.list{
+    position: absolute;
+    float: center;
+    width: 50px; 
+    margin-top: 20px;
+}
+
+header{
+    width: 1300px;
+    height: 150px;
+    background-color: #B10000;
+    display: flex;
+    
+    
+}
+
+footer{
+    width: 1300px;
+    height: 100px;
+    background-color: #B10000;
+    
+}
+
+.PokemonSearch{
+   height: 130px;
+   position: absolute;
+   background-color: #fff;
+   width: 125px;
+   margin-left: 50px;
+   margin-top: 50px;
+   padding-left: 15px;
+   padding-top: 10px;
+   border-radius: 100px;
+}
+
+.Name{
+    margin-left: 80px;
+    margin-top: 180px;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.Normal{
+    width: 100px;
+    margin-left: 60px;
+    padding-left: 20px;
+    color: #fff;
+    background-color: #C4D1B8;
+    border-radius: 50px;
+   
+}
+
+.Fire{
+    width: 80px;
+    margin-left: 70px;
+    padding-left: 25px;
+    color: #fff;
+    background-color: #EB9641;
+    border-radius: 50px;
+}
+
+.Fairy{
+    width: 80px;
+    margin-left: 70px;
+    padding-left: 25px;
+    color: #fff;
+    background-color:  #F5A5B8;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.Pokemon{
+    width: 1300px;
+    height: 300px;
+    background-color: #B10000;
+    border-radius: 150px 150px 0px 0px;
+    margin-top: 200px; 
+    display: flex;
+    z-index: 1;
+
+}
+
+.Search{
+    color: #fff;
+    background-color: #000;
+    border-radius: 25px;
+    width: 250px;
+    height: 50px;
+    position: Absolute;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    margin-left: 500px;
+    margin-top: 330px;
+    font-size: 2rem;
+    z-index: 2;
+}
+
+.Character{
+    position: absolute;
+    margin-top: 10px;
+    font-size: 4rem;
+    align-self: center;
+    color: #fff;
+}
+
+.Info{
+    background-color: #B10000;
+    width: 600px;
+    height: 300px;
+    border-radius: 0px 50px 50px 0px;
+    margin-top: 150px;
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 1.3rem;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.377);
+    position: relative;
+
+}
+
+.LogoInfo{
+    position: absolute;
+    z-index: 0;
+    margin-left: 100px;
+    margin-top: 150px;
+    opacity: 0.5;
+}
+
+.Piplup{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 250px;
+}
+
+.Dawn{
+    position: Absolute;
+    margin-left: 450px;
+    margin-top: 70px;
+    z-index: 0;
+}
+
+.Dawn_Character{
+    position: Absolute;
+    margin-left: 750px;
+    margin-top: -40px;
+
+}
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+  @media (min-width: 576px) and (max-width: 768px){
+  
+ 
+  }
+ 
+  
+  @media (min-width: 768px) and (max-width: 992px){
+  
+   
+ }
+ 
+ @media (min-width: 992px) and (max-width: 1200px){
+
+
+ }
+ 
+ @media (min-width: 1400px){
+
+   
+ }
