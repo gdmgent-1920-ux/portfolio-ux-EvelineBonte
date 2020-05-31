@@ -181,6 +181,25 @@ footer{
 
 }
 
+.Map{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #81E1ED;
+    border-color: #4F88BA;
+    border-width: 6px;
+    border-style: solid;
+    position: absolute;
+    color: rgba(255, 255, 255, 0);
+    margin-top: 610px;
+    margin-left: 600px;
+}
+
 a:link {
     color: #fff;
     text-decoration: none;
